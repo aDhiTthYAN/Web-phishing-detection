@@ -433,6 +433,8 @@ st.subheader('This is a "ML-based Web-app" .Objective of the web-app is to detec
 st.write("This web-app predicts whether a website is phishing or legitimate. Users provide a URL as input, and based on the URL, the web-app will extract features from the website's content to determine its authenticity.")
 with st.expander('EXAMPLE PHISHING URLs (These URLs and their features were not included in the dataset; they are used for testing purposes):'):
     st.caption('REMEMBER: PHISHING WEB PAGES HAVE A SHORT LIFECYCLE! Phishing URLs often have a short lifespan, and the model may not always extract features from them successfully, as they may have been blocked. Therefore, it is essential to use recently listed phishing URLs for predictions.')
+    st.write('https://att-hgfdswdf.weeblysite.com/')
+    st.write('https://business-email-103802.weeblysite.com/')
     st.write('https://support.clean-mx.com/clean-mx/phishing.php')
     st.write('https://link.springer.com/10.1007/s10207-023-00768-x')
     st.write('https://link.springer.com/chapter/10.1007/978-3-030-86137-7_33')
