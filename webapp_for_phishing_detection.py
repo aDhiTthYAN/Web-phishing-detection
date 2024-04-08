@@ -489,7 +489,7 @@ with st.expander('EXAMPLE PHISHING URLs (These URLs and their features were not 
     st.write('https://page-violation-review.replit.app/')
     st.write('https://metamask-wyllet.webflow.io/')
     st.write('https://producto-site.top/')
-    sr.write('https://recibirtrasfiyabancolombia23232331.brizy.site/...')
+    st.write('https://recibirtrasfiyabancolombia23232331.brizy.site/...')
     
     
 
