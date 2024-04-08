@@ -433,8 +433,6 @@ st.subheader('This is a "ML-based Web-app" .Objective of the web-app is to detec
 st.write("This web-app predicts whether a website is phishing or legitimate. Users provide a URL as input, and based on the URL, the web-app will extract features from the website's content to determine its authenticity.")
 with st.expander('EXAMPLE PHISHING URLs (These URLs and their features were not included in the dataset; they are used for testing purposes):'):
     st.caption('REMEMBER: PHISHING WEB PAGES HAVE A SHORT LIFECYCLE! Phishing URLs often have a short lifespan, and the model may not always extract features from them successfully, as they may have been blocked. Therefore, it is essential to use recently listed phishing URLs for predictions.')
-    st.write('https://producto-site.top/')
-    sr.write('https://recibirtrasfiyabancolombia23232331.brizy.site/...')
     st.write('https://register-jesse.org/')
     st.write('https://claim-jesse.org')
     st.write('https://vod-ktk.com')
@@ -490,6 +488,8 @@ with st.expander('EXAMPLE PHISHING URLs (These URLs and their features were not 
     st.write('https://google-newsletters.blogspot.ch/ ')
     st.write('https://page-violation-review.replit.app/')
     st.write('https://metamask-wyllet.webflow.io/')
+    st.write('https://producto-site.top/')
+    sr.write('https://recibirtrasfiyabancolombia23232331.brizy.site/...')
     
     
 
